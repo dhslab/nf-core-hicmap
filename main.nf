@@ -1,9 +1,9 @@
 #!/usr/bin/env nextflow
 /*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    nf-core/hicmap
+    dhslab/hicmap
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Github : https://github.com/nf-core/hicmap
+    Github : https://github.com/dhslab/hicmap
     Website: https://nf-co.re/hicmap
     Slack  : https://nfcore.slack.com/channels/hicmap
 ----------------------------------------------------------------------------------------
@@ -36,7 +36,7 @@ WorkflowMain.initialise(workflow, params, log)
 include { HICMAP } from './workflows/hicmap'
 
 //
-// WORKFLOW: Run main nf-core/hicmap analysis pipeline
+// WORKFLOW: Run main dhslab/hicmap analysis pipeline
 //
 workflow NFCORE_HICMAP {
     HICMAP ()

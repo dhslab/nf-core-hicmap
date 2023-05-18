@@ -1,5 +1,5 @@
 //
-// This file holds several functions specific to the workflow/hicmap.nf in the nf-core/hicmap pipeline
+// This file holds several functions specific to the workflow/hicmap.nf in the dhslab/hicmap pipeline
 //
 
 import nextflow.Nextflow

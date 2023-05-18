@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "https://raw.githubusercontent.com/nf-core/hicmap/master/nextflow_schema.json",
-    "title": "nf-core/hicmap pipeline parameters",
+    "$id": "https://raw.githubusercontent.com/dhslab/hicmap/master/nextflow_schema.json",
+    "title": "dhslab/hicmap pipeline parameters",
     "description": "3D genome contacts calling from HiC data",
     "type": "object",
     "definitions": {

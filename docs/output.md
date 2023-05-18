@@ -1,4 +1,4 @@
-# nf-core/hicmap: Output
+# dhslab/hicmap: Output
 
 ## Introduction
 
